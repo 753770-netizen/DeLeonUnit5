@@ -43,6 +43,6 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        gameOver.Text.gameObject.SetActive(true);
+        gameOverText.gameObject.SetActive(true);
     }
 }
